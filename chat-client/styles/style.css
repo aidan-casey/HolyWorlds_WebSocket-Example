@@ -1,0 +1,47 @@
+#page_header {
+	text-align: center;
+}
+
+/* Non-Dynamic chat styling */
+#chat {
+	margin: 0 auto;
+	width: 80vw;
+}
+
+#chat_box {
+	margin: 0 auto 10px auto;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 60vh;
+	overflow-y: scroll;
+	background-color: #DDD;
+}
+
+#chat_input {
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#chat_username {
+	padding: 10px;
+	box-sizing: border-box;
+	width: 250px;
+	margin-bottom: 5px;
+}
+
+/* Dynamic Content */
+.message {
+	width: 100%;
+	background-color: lightblue;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 5px #888;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.message_username {
+	color: red;
+}
